@@ -1,0 +1,260 @@
+header{
+    font-family: sans-serif;
+    background-color: white;
+    padding : 25px;
+    position: fixed;
+    width: 99%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+}
+.logo{
+    float: left;
+    width: 5em;
+}
+input {
+    border-radius: 9px;
+    font-size: 1.2em;
+    padding: 8px;
+    width: 40%;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+.search{
+    text-align: center;
+    padding: 10px;
+}
+header > a{
+    background-color: rgb(254, 58, 86);
+    padding: 0.7em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-radius: 9px;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    color: white;
+    float: right;
+    text-decoration: none;
+    position: relative;
+}
+header > a:visited{
+    color: white;
+    text-decoration: none;
+}
+header > a:link{
+    color: white;
+    text-decoration: none;
+}
+header > a:hover{
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+}
+
+main{
+    padding-top: 8em;
+    padding-right: 4em ;
+    padding-left: 4em;
+    display: block;
+    height:auto;
+}
+.banner{
+    text-align: center;
+    background-color: rgb(254, 58, 86);
+}
+.banner img{
+    width :20em;
+    margin: 2em;
+}
+.otoplus {
+    clear: both;
+}
+ul {
+    list-style: none;
+    color:white;
+    
+}
+.categories li{
+    float: left;
+    margin: 1em;
+    width: 28%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+    border-radius: 9px;
+    font-family:bold Roboto, Tahoma, sans-serif;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.categories li:hover{
+    transform : scale(1.1);
+    cursor: pointer;
+}
+
+.most-searched li{
+    background-color:rgb(245, 245, 245);
+    float: left;
+    margin: 1em;
+    height: 200px;
+    width: 20%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+    border-radius: 9px;
+    font-family:bold Roboto, Tahoma, sans-serif;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.most-searched li:hover{
+    transform : scale(1.1);
+    cursor: pointer;
+}
+.most-searched img{
+    width: 85%;
+    height: 200px;
+}
+p{  
+    color:black;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(255, 63, 85);
+    margin-top: 2em;
+    display: block;
+    height: 300px;
+}
+footer img{
+    width : 15%;
+}
+form {
+    border-radius: 15px;
+    margin-top: 150px;
+    background-color: rgb(255, 63, 85);
+    background-image: url(https://static.letgo.com/site-images/footer_letgo_white.svg);
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    box-shadow: 0px 100px 200px 0px rgba(0, 0, 0, 0.2);
+}
+label{
+    color: white;
+    font-size: 1.2em;
+    font-family:bold Roboto, Tahoma, sans-serif;
+}  
+input{
+    font-family:bold Roboto, Tahoma, sans-serif;
+}
+input[type="submit"]{
+    transition:0.3s;
+    color: rgb(255, 63, 85);
+    background-color: white;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    transform: scale(1.07)
+}
+a:hover{
+    cursor:pointer;
+}
+svg{
+    fill:white
+}
+nav a{
+    margin:20px
+}
+
+.rights{
+    background-color: rgb(254, 58, 86);
+    padding: 0.4em;
+    
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    width:150px;
+    text-align: center;
+}
+.rights:visited{
+    color: white;
+    text-decoration: none;
+}
+.rights:link{
+    color: white;
+    text-decoration: none;
+}
+.rights:hover{
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+}
+.search-btn{
+    fill:rgb(254, 58, 86);
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.search-btn a{
+    display:block;
+}
+
+.results li{
+    
+    float: left;
+    margin: 1em;
+    width: 20%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+    border-radius: 9px;
+    font-family:bold Roboto, Tahoma, sans-serif;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.results li:hover{
+    transform : scale(1.1);
+    cursor: pointer;
+}
+.show-more{
+    background-color: rgb(254, 58, 86);
+    padding: 0.7em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-radius: 9px;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.show-more:hover{
+    transform:scale(1.1)
+}
+section{
+    font-weight: 400;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    padding: 16px;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(66, 66, 66);
+}
+.city{
+  background-color:white;
+  color: black;
+  border-radius: 9px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: rgb(0 10 18 / 12%) 0px 2px 4px, rgb(246 246 246 / 50%) 0px 0px 1px;
+  padding: 15px;
+  margin: 0.5em;
+  width: auto;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family:bold Roboto, Tahoma, sans-serif;
+  border: 1px solid rgb(245, 245, 245);
+}
+.city:hover{
+transform : scale(1.1)
+}
